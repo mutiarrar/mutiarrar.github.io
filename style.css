@@ -1,0 +1,22 @@
+body {
+	background-color: black:
+}
+h1 {
+	text-align: center; 
+	color: white; 
+	font-family: "lucida handwritting"; 
+	font-size: 40px;
+}
+table {
+	color: seashell; 
+	font-family: "times new roman"; 
+	font-size: 18px;
+}
+p {
+	padding: 25px; 
+	background-color: gray; 
+	margin: 25px; 
+	border-style: double; 
+	font-family: "times new roman"; 
+	font-size: 16px;
+}
