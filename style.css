@@ -1,10 +1,10 @@
 body {
-	background-color: black;
+	background-color: gray;
  }
 h1 {
 	text-align: center; 
-	color: lightgray; 
-	font-family: "lucida handwritting"; 
+	color: white; 
+	font-family: "lucida handwriting";
 	font-size: 40px;
 }
 table {
@@ -14,7 +14,7 @@ table {
 }
 p {
 	padding: 25px; 
-	background-color: gray; 
+	background-color: lightgray; 
 	margin: 25px; 
 	border-style: double; 
 	font-family: "times new roman"; 
