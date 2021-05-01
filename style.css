@@ -1,9 +1,9 @@
 body {
-	background-color: black:
-}
+	background-color: black;
+ }
 h1 {
 	text-align: center; 
-	color: white; 
+	color: lightgray; 
 	font-family: "lucida handwritting"; 
 	font-size: 40px;
 }
