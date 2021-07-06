@@ -1,55 +1,225 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-<head>
-	<title>Website Mutiara Anjani Suri</title>
-</head>
-<body>
-	<h1>Biodata</h1>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<img src="mutiara.jpeg" alt="mutiara" width="120" height="180">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-	<table>
-		<tr>
-			<th align="left">Nama Lengkap</th>
-			<th>:</th>
-			<td>Mutiara Anjani Suri</td>
-		</tr>
-		<tr>
-			<th align="left">Nama Panggilan</th>
-			<th>:</th>
-			<td>Muti</td>
-		</tr>
-		<tr>
-			<th align="left">Tempat, Tanggal Lahir</th>
-			<th>:</th>
-			<td>Bogor, 17 Maret 2004</td>
-		</tr>
-		<tr>
-			<th align="left">Umur</th>
-			<th>:</th>
-			<td>17 Tahun</td>
-		</tr>
-		<tr>
-			<th align="left">Agama</th>
-			<th>:</th>
-			<td>Islam</td>
-		</tr>
-		<tr>
-			<th align="left">Pekerjaan</th>
-			<th>:</th>
-			<td>Pelajar</td>
-		</tr>
-		<tr>
-			<th align="left">Nama Sekolah</th>
-			<th>:</th>
-			<td>SMK-SMAK Bogor</td>
-		</tr>
-	</table>
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
 
-	<p>Hallo semua! Perkenalkan nama saya Muti. Kali ini saya ingin menceritakan pengalaman pembelajaran jarak jauh yang saya jalani selama pandemi Covid-19 berlangsung. Menurut saya PJJ itu sangat menyulitkan siswa dalam memahami materi pelajaran. Banyak hal yang ingin ditanyakan tetapi tidak semudah dan secepat saat belajar di sekolah. Kita harus menghubungi guru lewat classroom, whatsapp, telegram, atau bahkan email. Hal itu menurut saya kurang efektif karena kita tidak tau kapan guru tersebut akan membalas pertanyaan kita. Dan bahkan jika banyak yang bertanya, bisa saja chat kita tenggelam sehingga tidak dibalas. Oleh karena itu, saya lebih sering menanyakan materi atau tugas kepada teman. Selain itu, saya juga kesulitan dalam memahami materi dalam bentuk teks tanpa penjelasan. Beberapa pelajaran lain yang ada videonya saja saya masih kurang paham, apalagi yang hanya berupa teks atau pdf. Kendala lain yang saya alami yaitu jaringan yang kurang stabil, kuota, dan juga merasa kurang mengenal guru, wali kelas, bahkan teman, terutama teman sekelas yang seharusnya sudah saling mengenal atau dekat.</p>
-	<p>Tapi dampak PJJ ini juga tidak selalu negatif. Ada beberapa hal positif yang saya rasakan. Contohnya, saya bisa mengulang video penjelasan materi sepuasnya. Kalau di sekolah, guru hanya menerangkan sekali, dan kita harus meminta penjelasan ulang jika kurang paham. Tapi dengan video ini, kita tidak perlu meminta penjelasan ulang, cukup diulang saja bagian yang kurang mengerti, dan jika masih belum paham, baru kita bisa menanyakannya lewat whatsapp, telegram, atau langsung comment di video tersebut. PJJ ini menurut saya lebih santai dalam jadwal pembelajarannya. Namun tugasnya yang menurut saya lumayan 'beban'. Sebenarnya itu tergantung diri sendiri sih. Saya tipikal anak yang gabisa diajak buru buru, apalagi soal tugas. Jadi kalau banyak tugas yang deadline nya bareng, saya suka ngeluh sendiri, tapi ga langsung dikerjain, nunggu mepet deadline. Itu bukan hal yang baik, tapi emang ngubah kebiasaan buruk itu ga mudah, butuh proses dan emang harus pelan pelan. Jadi saya harap pandemi ini segera berakhir, dan kita semua bisa kembali beraktifitas seperti biasa. Stay safe semua!</p> 
+    <title>Mutiara Anjani Suri</title>
+  </head>
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mutiara Anjani Suri</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
 
-</body>
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="pic.jpeg" alt="Mutiara Anjani Suri" width="200" class="rounded-circle" img-thumbnail />
+      <h1 class="display-4">Mutiara Anjani Suri</h1>
+      <p class="lead">Welcome to my website!</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,122.7C672,117,768,139,864,133.3C960,128,1056,96,1152,80C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-6">
+            <p>Hai semuanya! Saya Mutiara Anjani Suri, biasa dipanggil Muti. Saya merupakan salah satu pelajar SMK-SMAK Bogor tahun ajaran 2019/2023. Saya lahir di Bogor, tanggal 17 Maret 2004 dan saat ini umur saya 17 tahun.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0003"
+          fill-opacity="1"
+          d="M0,160L48,181.3C96,203,192,245,288,229.3C384,213,480,139,576,138.7C672,139,768,213,864,208C960,203,1056,117,1152,90.7C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir about -->
+
+    <!-- gallery -->
+    <section id="gallery" style="background-color: #0003">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/2.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Candi Borobudur, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/1.jpeg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Candi Borobudur, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/7.jpeg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">De Mata Trick Eye Museum, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/5.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">De Mata Trick Eye Museum, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/4.jpeg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">De Mata Trick Eye Museum, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/6.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">De Mata Trick Eye Museum, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/9.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Dunia Fantasi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/10.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">JungleLand Sentul</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/8.jpg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Lava Tour Merapi, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="gallery/3.jpeg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Keraton Kesultanan Wignyo Sukarto, Yogyakarta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,128L80,154.7C160,181,320,235,480,229.3C640,224,800,160,960,149.3C1120,139,1280,181,1360,202.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir gallery -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="Name" aria-describedby="Name" />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="Email" />
+              </div>
+              <div class="mb-3">
+                <label for="Pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="Pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+    <br /><br />
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center p-1">
+      <br />
+      <p>created with patience by <a href="https://www.instagram.com/mutiarrar/" class="text-white fw-bold">Mutiara Anjani Suri</a></p>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
